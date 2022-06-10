@@ -12,7 +12,7 @@
     <?php  
                 $server = "localhost";
                 $username = "root";
-                $password = "Rasu16@mysqlroot";
+                $password = "";
                 $database = "basic_bank_system";
                 // Create a database connection
         $con = mysqli_connect($server, $username, $password, $database);

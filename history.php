@@ -18,33 +18,9 @@
 </head>
 
 <body>
-  <!-- <div class="container"> -->
     <header class="header">TSF Bank</header>
-    <!----------NAVIGATION BAR---------->
 
     <div class="body">
-    <!-- <div class="navigatio">
-        <div class="logo">
-            <img src="./img/icon_bank.png" alt="logo" style="height: 30px;">
-            Bank<span class="logo-hlt">aza</span> Bank
-        </div>
-        <nav>
-            <ul>
-                <li>
-                  <a href="index.html" class="text-decoration-none">Home</a>
-                </li>
-                <li>
-                  <a href="#" class="text-decoration-none">About</a>
-                </li>
-                <li>
-                  <a href="customer.php" class="text-decoration-none">Customers</a>
-                </li>
-                <li>
-                  <a href="#footer" class="text-decoration-none">Contacts</a>
-                </li>
-            </ul>
-        </nav>
-    </div> -->
 
     <?php  
       echo '<h2 class="intro" style="letter-spacing: 2px; font-weight: bold;"><center>Transaction History</center></h2>';
@@ -57,7 +33,7 @@
       </tr>';
       $server = "localhost";
       $username = "root";
-      $password = "Rasu16@mysqlroot";
+      $password = "";
       $database = "basic_bank_system";
 
           // Create a database connection
@@ -89,11 +65,6 @@
   <!----------FOOTER---------->
   <footer id="footer">
       <p>&copy; Copyright 2022 <span class="footer_logo">Rasika G.</span></p>
-      <!-- <div class="social-icon">
-            <a href="https://www.linkedin.com/in/reddykumaraswamy"><i class="fab fa-linkedin-in"></i></a>
-            <a href="mailto: reddy.kumaraswamy15@gmail.com"><i class="fas fa-envelope"></i></i></a>
-            <i class="fas fa-phone"></i>
-      </div> -->
   </footer>
 </body>
 

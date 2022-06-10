@@ -15,46 +15,15 @@
   </head>
 
   <body>
-    <!-- <div class="container"> -->
       <header class="header">TSF Bank</header>
-      <!----------NAVIGATION BAR---------->
-      <!-- <div class="navigatio">
-          <div class="logo">
-              <img src="./img/icon_bank.png" alt="logo" style="height: 30px;">
-              Bank<span class="logo-hlt">aza</span> Bank
-          </div>
-          <nav>
-              <ul>
-                  <li>
-                    <a href="index.html" class="text-decoration-none">Home</a>
-                  </li>
-                  <li>
-                    <a href="#" class="text-decoration-none">About</a>
-                  </li>
-                  <li>
-                    <a href="customer.php" class="text-decoration-none">Customers</a>
-                  </li>
-                  <li>
-                    <a href="#footer" class="text-decoration-none">Contacts</a>
-                  </li>
-              </ul>
-          </nav>
-      </div> -->
       <div class="body">
 
       <?php  
-        // echo '<h2 class="intro" style="letter-spacing: 2px; font-weight: bold;"><center>Customers</center></h2>';
-        // echo '<table class="listtable table-light table  table-striped table-hover mt-2"  style="opacity: 0.9; width: 80%; margin: auto;">
-        //   <tr class="table-dark">
-        //       <th>ID</th>
-        //       <th>Name</th>
-        //       <th>E-mail</th>
-        //       <th>Account Balance</th>
-        //   </tr>';
+
 
         $server = "localhost";
         $username = "root";
-        $password = "Rasu16@mysqlroot";
+        $password = "";
         $database = "basic_bank_system";
 
         // Create a database connection
@@ -70,16 +39,7 @@
         
         // Execute the query
             $result=mysqli_query($con,$sql);
-            // while($row=mysqli_fetch_array($result)){
-            //     // var_dump($row);
-            //     echo '<tr>
-            //     <td>'.$row["id"].'</td>
-            //     <td>'.$row["Name"].'</td>
-            //     <td>'.$row["email"].'</td>
-            //     <td>'.$row["balance"].'</td>
-            //     </tr>';
-            // }
-            // echo'</table>';
+
       ?> <br>
       <hr/>
 
@@ -109,11 +69,6 @@
     <!----------Footer---------->
     <footer id="footer">
       <p>&copy; Copyright 2022 <span class="footer_logo">Rasika G.</span></p>
-      <!-- <div class="social-icon">
-              <a href="https://www.linkedin.com/in/reddykumaraswamy"><i class="fab fa-linkedin-in"></i></a>
-              <a href="mailto: reddy.kumaraswamy15@gmail.com"><i class="fas fa-envelope"></i></i></a>
-              <a href="#"><i class="fas fa-phone"></i></a>
-      </div> -->
     </footer>
   </body>
 </html>
