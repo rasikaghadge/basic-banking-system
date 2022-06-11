@@ -30,9 +30,9 @@
           </tr>';
 
         $server = "localhost";
-        $username = "root";
-        $password = "";
-        $database = "basic_bank_system";
+        $username = "id19088538_root";
+        $password = "nHe~~?%QGF7_=\E1";
+        $database = "id19088538_banking_system";
 
         // Create a database connection
         $con = mysqli_connect($server, $username, $password, $database);
